@@ -1,0 +1,1004 @@
+ /* navbar                                           navbar */
+ .container-fluid {
+   margin-top: -7.6px;
+   background-color: rgb(0, 5, 51);
+   box-shadow: 0.5px 1px 4px 1px;
+   height: 70px;
+
+ }
+
+ .nav-link:hover {
+   color: rgb(241, 204, 81);
+ }
+
+ nav li :hover {
+   color: rgb(241, 204, 81);
+
+ }
+
+ nav li :active {
+   color: rgb(14, 1, 1);
+ }
+
+ nav li {
+   margin: 3%;
+ }
+
+ .navbar-nav {
+   margin-left: 20%;
+   font-size: 20px;
+ }
+
+ nav li b {
+   color: rgb(255, 255, 253);
+ }
+
+ .autologo {
+   margin-left: 5%;
+   width: 290px;
+   height: 100px;
+ }
+
+ .nav-link {
+   color: rgb(224, 215, 164);
+ }
+
+ /* slider                                            slider */
+ #carouselExampleDark {
+   height: 500px;
+ }
+
+ .carousel-inner {
+   border: 1px black solid;
+   height: 500px;
+
+ }
+
+ .carousel-caption h2::after {
+   content: " ";
+   display: block;
+   background-color: red;
+   width: 9%;
+   height: 3px;
+   margin-left: 40%;
+ }
+
+ .carousel-caption h2 {
+   color: white;
+   margin-top: 15%;
+ }
+
+ .carousel-caption p {
+   color: white;
+   margin-left: 2%;
+   text-align: left;
+ }
+
+ .carousel-caption {
+   border: 1px solid black;
+   width: 40%;
+   background-color: rgb(0, 0, 0, 0.6);
+   margin-left: -15%;
+   height: 550px;
+   color: white;
+   margin-bottom: 0%;
+ }
+
+ #bs {
+   height: 12px;
+   box-shadow: 1px 1px 5px 1px;
+   border-radius: 100px;
+   background-color: rgb(209, 22, 22);
+ }
+ .carousel-caption a{
+  text-decoration: none;
+  color: white;
+ }
+
+ /* 1 box                                              1 box  */
+
+
+
+ .section {
+   margin-top: 2%;
+   width: 100%;
+
+   height: 200px;
+
+ }
+
+ .section a {
+   text-decoration: none;
+   color: black;
+ }
+
+ .container {
+   display: flex;
+   box-shadow: 0.5px 1px 3px 0.5px;
+   height: 120px;
+   margin-top: 1.3%;
+   width: 60%;
+   color: rgb(80, 76, 70);
+   align-items: center;
+ }
+
+ .box1 {
+   height: 100px;
+   padding-left: 2%;
+   width: 30%;
+   box-shadow: 1px 0px 0px 0px;
+   margin-left: 5%;
+ }
+
+ .box1 h6 {
+   margin-top: 3%;
+   margin-left: 20%;
+   color: rgb(0, 0, 0);
+ }
+
+ .box2 {
+   text-align: center;
+   height: 100px;
+   width: 30%;
+   box-shadow: 1px 0px 0px 0px;
+   color: black;
+ }
+
+ .box3 {
+   text-align: center;
+   height: 100px;
+   width: 30%;
+   color: black;
+ }
+
+ .box3 h6 {
+   margin-left: 20%;
+ }
+
+ .dealerlogo {
+   width: 30%;
+   height: 60px;
+   margin-left: 25%;
+ }
+
+ .bookinglogo {
+   width: 22%;
+   text-align: center;
+   height: 65px;
+
+ }
+
+ .showroomlogo {
+   width: 35%;
+   margin-left: 20%;
+   height: 70px;
+
+ }
+
+ /* card animation                               card animation */
+ .mainbox2 {
+   width: 41%;
+   height: 350px;
+   margin-left: 6.5%;
+   box-shadow: 0.5px 1px 2px 0.1px;
+   transition: all 0.4s;
+ }
+
+ .mainbox2:hover {
+   cursor: pointer;
+   transform: scale(1.2);
+   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+   background-color: rgb(255, 255, 255);
+ }
+
+ .first-content {
+   height: 100%;
+   width: 100%;
+   transition: all 0.4s;
+   justify-content: center;
+   align-items: center;
+   opacity: 1;
+   border-radius: 15px;
+ }
+
+ .mainbox2:hover .first-content {
+   height: 0px;
+   opacity: 0;
+ }
+
+ .second-content {
+   height: 0%;
+   width: 100%;
+   opacity: 0;
+   text-align: center;
+   margin-top: 20%;
+   border-radius: 15px;
+   transition: all 0.4s;
+   transform: rotate(90deg) scale(-1);
+ }
+
+ .mainbox2:hover .second-content {
+   opacity: 1;
+   height: 100%;
+   font-size: 1.8rem;
+   transform: rotate(0deg);
+ }
+
+ .mainbox3 {
+   box-shadow: 0.5px 1px 2px 0.1px;
+   width: 41.3%;
+   height: 350px;
+   margin-left: 6%;
+   transition: all 0.4s;
+ }
+
+ .mainbox3:hover {
+   cursor: pointer;
+   transform: scale(1.2);
+   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+   background-color: rgb(255, 255, 255);
+ }
+
+ .mainbox3:hover .first-content {
+   height: 0px;
+   opacity: 0;
+ }
+
+ .mainbox3:hover .second-content {
+   opacity: 1;
+   height: 100%;
+   font-size: 1.8rem;
+   transform: rotate(0deg);
+ }
+
+ /* cards                                                   cards */
+
+ .main {
+   width: 100%;
+   height: 400px;
+
+ }
+
+ .main a {
+   text-decoration: none;
+   color: rgb(236, 14, 14);
+ }
+
+ .main #carouselExampleDark {
+   margin-left: 5%;
+   height: 350px;
+   width: 41%;
+   margin-left: 6%;
+   border-radius: 0px 0px 0px 80px;
+
+ }
+
+ .main #innerb {
+   height: 80px;
+   width: 20%;
+   border: none;
+   margin-top: -14.1%;
+   margin-left: -0.5px;
+   border-radius: 0px 65px 0px 0px;
+   
+   background-color: rgb(255, 255, 255);
+ }
+
+ .mainboximage {
+   width: 100%;
+   height: 349px;
+   border-radius: 0px 0px 0px 9px;
+   color: rgb(112, 109, 109);
+   box-shadow: 0.5px 0.5px 2px 0.1px;
+ }
+
+ .main1 {
+   width: 100%;
+   height: 400px;
+ }
+
+ .main1 a {
+   color: red;
+   text-decoration: none;
+ }
+
+ .main1 #carouselExampleDark {
+   margin-left: 5%;
+   height: 350px;
+   width: 40%;
+   margin-left: 6%;
+   border-radius: 0px 0px 0px 10px;
+
+ }
+
+ .main1 #innerb {
+   height: 80px;
+   width: 20%;
+   border: none;
+   margin-left: -0.5%;
+   margin-top: -14.3%;
+   border-radius: 0px 65px 0px 0px;
+   background-color: rgb(255, 255, 255);
+ }
+
+ .mainboximage1 {
+   width: 100%;
+   height: 349px;
+   border-radius: 0px 0px 0px 5px;
+   color: rgb(112, 109, 109);
+   box-shadow: 0.5px 0.5px 2px 0.1px;
+ }
+
+ .mainboximage2 {
+   width: 100%;
+   height: 349px;
+   border-radius: 0px 0px 0px 9px;
+   color: rgb(112, 109, 109);
+   box-shadow: 0.5px 0.5px 2px 0.1px;
+ }
+
+ .mainbox2 {
+   width: 40.5%;
+   height: 350px;
+   margin-left: 6.5%;
+   box-shadow: 0.5px 1px 2px 0.1px;
+ }
+
+ .mainbox2 h3 {
+   text-align: center;
+   color: black;
+   margin-top: 2%;
+ }
+
+ .mainbox2 h5 {
+   text-align: center;
+ }
+
+ .mainbox2 p {
+   text-align: left;
+   margin-left: 2%;
+ }
+
+ .mainbox3 {
+   box-shadow: 0.5px 1px 2px 0.1px;
+   width: 41.3%;
+   height: 350px;
+   margin-left: 6%;
+ }
+
+ .mainbox3 h3 {
+   text-align: center;
+   margin-top: 5%;
+   color: black;
+ }
+
+ .mainbox3 p {
+   text-align: left;
+   margin-left: 2%;
+   margin-top: 3%;
+ }
+
+ .fa-solid {
+   margin-top: 22%;
+   margin-left: 20%;
+   font-size: 50px;
+ }
+
+ /* car brands                                            car brands */
+
+ .container2 {
+   display: flex;
+   height: 100px;
+   align-items: center;
+ }
+
+ .brandbox1 {
+   align-items: center;
+   width: 20%;
+   color: rgb(80, 76, 70);
+   height: 80px;
+   margin-left: 18%;
+   border-radius: 500%;
+   text-align: center;
+   box-shadow: 0.5px 1px 4px 1px;
+ }
+
+ .brandbox {
+   align-items: center;
+   text-align: center;
+   width: 20%;
+   height: 80px;
+   border-radius: 500%;
+   margin-left: 2%;
+   color: rgb(80, 76, 70);
+   box-shadow: 0.5px 1px 4px 1px;
+
+ }
+
+ .hondalogo {
+   margin-top: 2%;
+   border-radius: 50%;
+   width: 70%;
+   height: 70px;
+
+ }
+
+ .brand h1 {
+   color: black;
+   text-align: center;
+ }
+
+ /* footer                                        footer */
+
+ #searchf {
+   font-size: 20px;
+   margin-left: -2px;
+ }
+
+ .footer {
+   display: flex;
+   background-color: rgb(63, 63, 66);
+   margin-top: 2%;
+   height: 400px;
+ }
+
+ .footerbooking {
+   display: flex;
+   background-color: rgb(7, 7, 48);
+   margin-top: 2%;
+   height: 400px;
+ }
+
+ .footerlogo {
+   width: 100%;
+   height: 120px;
+   margin-left: -11%;
+ }
+
+ .footerbox {
+
+   width: 23%;
+   margin-left: 5%;
+   text-align: left;
+ }
+
+ .footerbox h5 {
+   margin-left: 15%;
+   margin-top: 1%;
+   padding-bottom: 1%;
+ }
+
+ .footerbox2 {
+   height: 100px;
+   width: 100%;
+
+ }
+
+ .footerbox1 {
+   width: 23%;
+   margin-top: 10%;
+   text-align: center;
+ }
+
+ footer a {
+   list-style: none;
+   text-decoration: none;
+   color: white;
+ }
+
+ footer ul li {
+   list-style: none;
+   margin: 3%;
+
+ }
+
+ .footerbox1 h5 {
+   margin-left: 9%;
+   margin-top: 1%;
+ }
+
+ .footerbox3 {
+   width: 23%;
+   text-align: center;
+ }
+
+ .footerinput {
+   height: 39.8px;
+   width: 60%;
+   text-align: center;
+   border: none;
+   margin-left: 4%;
+   box-shadow: 0.5px 1px 4px 1px;
+   border-radius: 20px 0px 0px 20px;
+   color: black;
+   margin-top: 7%;
+ }
+
+ #footerb {
+   height: 40px;
+   border-radius: 0px 20px 20px 0px;
+   box-shadow: 0.5px 1px 4px 1px;
+   color: black;
+   margin-top: 7%;
+ }
+
+ .bottom {
+   width: 100%;
+   height: 50px;
+   padding-top: 0.05%;
+   color: white;
+   text-align: center;
+   background-color: rgb(0, 5, 51);
+ }
+
+ .bottom1 {
+   width: 100%;
+   height: 50px;
+   padding-top: 0.05%;
+   color: white;
+   text-align: center;
+   box-shadow: 1px 1px 1px 1px;
+   background-color: rgb(0, 5, 51);
+ }
+
+ .available {
+   color: rgb(199, 199, 86);
+   margin-top: 10%;
+   margin-left: 5%;
+ }
+
+ .footerbox2 a {
+   margin: 4%;
+   font-size: 20px;
+ }
+ #insta:hover{
+  color: rgb(255, 142, 97);
+ }
+ #you:hover{
+  color:red ;
+ }
+
+
+ /* booking page                         booking page  */
+ .bookingimage {
+   width: 100%;
+   height: 450px;
+
+ }
+
+ .mainradoi {
+   width: 100%;
+   height: 375px;
+
+ }
+
+ .bookingcar {
+   justify-content: center;
+   align-items: center;
+   margin-top: 2%;
+ }
+
+ .mainradoi h1 {
+   text-align: center;
+   margin-top: 5%;
+
+ }
+
+ .first {
+   color: black;
+   margin-left: 45%;
+
+ }
+
+ .mainform {
+   width: 100%;
+   height: 370px;
+
+ }
+
+ .form {
+   width: 50%;
+
+ }
+
+ .formin {
+   width: 100%;
+ }
+
+ .map {
+   width: 50%;
+ }
+
+ .bookinput {
+   width: 50%;
+   height: 50px;
+   text-align: left;
+   border: none;
+   color: grey;
+   margin: 2%;
+   border-radius: 10px 10px 10px 10px;
+   box-shadow: 0.5px 1px 4px 1px;
+
+ }
+
+ #formb {
+   height: 50px;
+   width: 20%;
+   border-radius: 10px 10px 10px 10px;
+   margin-left: 40%;
+   margin-top: 5%;
+ }
+
+ .Locationshow {
+   width: 50%;
+   color: black;
+   text-align: center;
+   margin-top: 3%;
+ }
+
+ .more {
+   margin-top: 3%;
+   text-align: center;
+   width: 50%;
+   color: black;
+ }
+
+ .maplocation {
+   height: 259px;
+
+ }
+
+ /* fordexplore                                   fordexplore */
+
+ .cardetails {
+   width: 100%;
+   height: 450px;
+ }
+
+ .cardetailsimage {
+   width: 50%;
+   height: 250px;
+   margin-left: 2%;
+   margin-top: 2%;
+
+ }
+
+ .cardetailscolor {
+   width: 50%;
+   height: 50px;
+   box-shadow: 0.5px 1px 4px 1px;
+   color: grey;
+
+ }
+
+ .blackcolor {
+   width: 8%;
+   height: 20px;
+   margin: 5%;
+   border-radius: 100%;
+   margin-left: 25%;
+   background-color: black;
+
+ }
+
+ .redcolor {
+   width: 8%;
+   height: 20px;
+   margin: 5%;
+   margin-left: 5%;
+   border-radius: 100%;
+   background-color: red;
+
+ }
+
+ .bluecolor {
+   width: 8%;
+   height: 20px;
+   margin: 5%;
+   margin-left: 5%;
+   border-radius: 100%;
+   background-color: blue;
+ }
+
+ .cardetailsimages {
+   width: 100%;
+   height: 50px;
+   justify-content: center;
+   margin-top: 1%;
+   box-shadow: 0.5px 1px 4px 1px;
+ }
+
+ .boxsimage {
+
+   width: 10%;
+   height: 35px;
+   margin: 2.5%;
+   box-shadow: 0.5px 1px 4px 1px;
+ }
+
+ .fordinfor {
+   width: 40%;
+   margin-left: 2%;
+   text-align: left;
+ }
+
+ .bluemain {
+   margin-top: 1%;
+   width: 100%;
+   height: 450px;
+   background-color: blue;
+ }
+
+ .bluecard1 {
+   margin-top: 2%;
+
+   width: 50%;
+   height: 420px;
+ }
+
+ .bluecard1 .card {
+   margin-left: 25%;
+   color: black;
+   box-shadow: 1px 1px 5px 2px;
+   height: 400px;
+ }
+
+ .bluecard2 {
+   margin-top: 2%;
+   width: 50%;
+   height: 420px;
+ }
+
+ .bluecard2 .card {
+   margin-left: 10%;
+   color: black;
+   box-shadow: 1px 1px 5px 2px;
+   height: 400px;
+ }
+
+ /* diference page                                           diference page */
+
+ .diferentmainimage {
+   border: 1px solid black;
+   height: 400px;
+
+ }
+
+ .hdifer {
+   width: 100%;
+   text-align: center;
+   margin-top: 2%;
+ }
+
+ .difer {
+   text-align: center;
+   font-size: 60px;
+
+ }
+
+ .maindiferent {
+   width: 100%;
+   height: 800px;
+ }
+
+ .diferents {
+   margin: 5%;
+   height: 700px;
+   justify-content: center;
+
+ }
+
+ .difernce1 {
+
+   width: 30%;
+ }
+
+ .difernce2 {
+
+   width: 30%;
+ }
+
+ .difernce3 {
+
+   width: 30%;
+ }
+
+ .point {
+
+   text-align: center;
+   margin-top: 2%;
+ }
+
+ /* find dailer                                             find dailer */
+
+ .bookinput1 {
+   width: 70%;
+   height: 50px;
+   text-align: left;
+   border: none;
+   color: grey;
+   margin-left: 15%;
+   margin-top: 2%;
+   border-radius: 10px 10px 10px 10px;
+   box-shadow: 0.5px 1px 4px 1px;
+   font-size: 14px;
+
+ }
+
+ .form1 {
+   width: 33%;
+   margin-top: 8%;
+ }
+
+ .map1 {
+
+   width: 67%;
+ }
+
+ .mainform1 {
+
+   width: 100%;
+   height: 600px;
+ }
+
+ .more1 {
+   margin-top: 2%;
+   width: 50%;
+   margin-left: 8%;
+   color: black;
+ }
+
+ .Locationshow1 {
+   width: 50%;
+   color: rgb(0, 0, 0);
+   margin-left: 5%;
+   margin-top: 2%;
+ }
+
+ #dailer {
+   margin-left: 16%;
+   border-radius: 10px 10px 10px 10px;
+   margin-top: 2%;
+ }
+
+ #dailer1 {
+   margin-left: 1%;
+   border-radius: 10px 10px 10px 10px;
+   margin-top: 2%;
+ }
+
+ /* car cards                                            car cards */
+ .hondacar {
+   width: 100%;
+   color: black;
+   height: 80px;
+   padding-top: 3%;
+   text-align: center;
+ }
+
+ .hondacar h1::after {
+   content: "  ";
+   display: block;
+   background-color: red;
+   width: 6%;
+   margin-left: 48%;
+   height: 5px;
+ }
+
+ .container1 {
+   text-align: center;
+   width: 100%;
+   height: 1100px;
+   display: grid;
+   margin-top: 60px;
+   padding-left: 12%;
+   grid-template-columns: 350px 350px 350px;
+   gap: 30px;
+
+ }
+
+ .card {
+   width: 80%;
+   height: 350px;
+   margin-top: 2px;
+   box-shadow: 0.01px 0.1px 2px 0px;
+   color: rgb(0, 0, 0);
+   
+   transform: translate(0%,0%);
+   overflow: hidden;
+
+ }
+ .cardim {
+  width: 100%;
+  height: 220px;
+  border-radius: 2%;
+  transition: all .2s ease-in-out;
+}
+.card:hover .cardim{
+  transform: rotate(3deg) scale(1.2);
+}
+
+ .card a {
+   text-decoration: none;
+   color: white;
+ }
+
+ .card p {
+   font-size: 18px;
+ }
+
+
+
+ .cardh {
+   font-size: 30px;
+ }
+
+
+
+ /* contact page                               contact page */
+
+ .maincontact {
+   width: 100%;
+   height: 500px;
+ }
+
+ .contactinputs {
+   width: 90%;
+   margin-left: 5%;
+
+   height: 500px;
+ }
+
+ .contactinput {
+   margin-top: 2%;
+   border: none;
+   width: 50%;
+   height: 40px;
+   margin-left: 26%;
+   text-align: center;
+   border-radius: 20px 20px 20px 20px;
+   box-shadow: 0.5px 1px 2px 0.1px;
+ }
+
+ .contactmessage {
+   margin-top: 2%;
+   border: none;
+   width: 50%;
+   height: 100px;
+   text-align: left;
+   margin-left: 26%;
+   padding-bottom: 4%;
+   border-radius: 10px 10px 10px 10px;
+   box-shadow: 0.5px 1px 2px 0.1px;
+ }
+
+ #contactbutton {
+   margin-left: 43%;
+   margin-top: 2%;
+   border-radius: 20px 20px 20px 20px;
+   width: 15%;
+   height: 40px;
+ }
+
+ .maincontact1 {
+   width: 100%;
+   height: 320px;
+ }
+
+ .contactlocation {
+   width: 50%;
+   height: 300px;
+ }
+
+ .contactmap {
+   width: 50%;
+   height: 300px;
+ }
+ .hondacar1 h1::after {
+  content: "  ";
+  display: block;
+  background-color: red;
+  width: 6%;
+  margin-left: 50%;
+  height: 5px;
+}

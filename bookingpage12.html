@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="e-project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- navbar -->
+
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <img src="autologo2-removebg-preview.png" alt="logo" class="autologo">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>Brands</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="fordcard.html">Ford</a></li>
+                  <li><a class="dropdown-item" href="hondacards.html">honda</a></li>
+                  <li><a class="dropdown-item" href="suzukicard.html">Suzuki</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="diferences.html"><b>Differences</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="bookingpage12.html"><b>Booking</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html"><b> Contact</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--  radio button                          radio button  -->
+
+    <div class="bookingimage">
+        <img src="book_you_suzuki1.jpeg" alt="image" height="450px" width="100%">
+
+    </div>
+
+    <div class="mainradoi ">
+        <h1> <strong> Choose your Car</strong></h1>
+        <div class="bookingcar d-flex">
+            <div class="m-2">
+                <input class="first" type="radio" name="tabControl" value="automobiles"><br>
+                <img src="grand-vitara-exterior-right-front-three-quarter-4.webp" width="150px" alt="image">
+            </div>
+            <div class="m-2">
+                <input class="first" type="radio" name="tabControl" value="automobiles"><br>
+                <img src="Honda_Accord_2.4_VTi_2016.jpg" width="150px" alt="image">
+            </div>
+            <div class="m-2">
+                <input class="first" type="radio" name="tabControl" value="automobiles"><br>
+                <img src="images (1).jpg" width="150px" alt="image">
+            </div>
+            <div class="m-2">
+                <input class="first" type="radio" name="tabControl" value="automobiles"><br>
+                <img src="Maruti-Suzuki.jpg" width="150px" alt="image">
+            </div>
+            <div class="m-2">
+                <input class="first" type="radio" name="tabControl" value="automobiles"><br>
+                <img src="2020-honda-city-modified-bodykit-nks-front-quarter-e2fc.jpg" width="150px" alt="image">
+            </div>
+        </div>
+        <div class="bookingcar d-flex">
+            <div class="m-2">
+                <input class="first" type="radio" name="tabControl" value="automobiles"><br>
+                <img src="images (2).jpg" width="150px" alt="image">
+            </div>
+            <div class="m-2">
+                <input class="first" type="radio" name="tabControl" value="automobiles"><br>
+                <img src="Honda_Accord_Front_Right_angled_.jpg" width="150px" alt="image">
+                
+            </div>
+            <div class="m-2">
+                <input class="first" type="radio" name="tabControl" value="automobiles"><br>
+                <img src="hrv-vti-landingu.png" width="150px" alt="image">
+            </div>
+        </div>
+        <div class=" d-flex  ">
+            <div class="more">
+                <h3> <strong> More Details</strong></h3>
+            </div>
+            <div class="Locationshow">
+                <h3> <strong> ShowRoom Location</strong></h3>
+            </div>
+        </div>
+        <div class="mainform d-flex">
+            <div class="form">
+                <div class="formin d-flex">
+                    <input type="text" placeholder="Full Name" class=" bookinput">
+                    <select class="bookinput ">
+                        <option class="option">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                </div>
+                <div class="formin d-flex">
+                    <input type="text" placeholder="Email" class=" bookinput">
+                    <input type="text" placeholder="Phone Number" class="bookinput">
+                </div>
+                <div class="formin d-flex">
+                    <select class="bookinput ">
+                        <option class="option">Model</option>
+                        <option value="Male">2024</option>
+                        <option value="Female">2023</option>
+                        <option value="Other">2022</option>
+                        <option value="Other">2021</option>
+                    </select>
+                    <select class="bookinput ">
+                        <option class="option">Choose Your City</option>
+                        <option value="Male">Karachi</option>
+                        <option value="Female">Peshawar</option>
+                        <option value="Other">Lahore</option>
+                        <option value="Other">kashmir</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-dark" id="formb" onclick="pop()">Submit</button>
+            </div>
+
+            <div class="map">
+                <div class="maplocation">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905.0312618709173!2d67.02107271989898!3d24.859578376119437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e0d51582567%3A0xcb141a47aa4ced76!2sHonda%20Centre!5e0!3m2!1sen!2s!4v1732392540444!5m2!1sen!2s"
+                        width="100%" height="359" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer                                            footer -->
+
+       
+        <footer class="footerbooking">
+
+
+            <div class="footerbox">
+                <img src="autologo2-removebg-preview.png" class="footerlogo" alt="logo">
+                <h5 class="text-light">Get in Touch</h5>
+                <p class="text-light"><b>Address:</b><span class="text-light"> Taiser Town karachi <br>block-36A </p>
+                <p class="text-light"><b>phone:</b><span> 03432835043</span></p>
+                <p class="text-light"><b>Email:</b><span> farazkhan61512@gmail.com</span></p>
+                <p class="text-light"><b>Email:</b><span> miswaralimiswarali07@gmail.com</span></p>
+            </div>
+            <div class="footerbox1">
+                <h5 class="text-light ">Auto World</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fordcard.html">New</a></li>
+                    <li><a href="finddailer.html">Dealer</a></li>
+                    <li><a href="bookingpage12.html">Book a Car</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="hondacards.html">Brand</a></li>
+                </ul>
+            </div>
+            <div class="footerbox1">
+                <h5 class="text-light">Cars By Make</h5>
+                <ul>
+                    <li><a href="fordcard.html">Ford car for sale</a></li>
+                    <li><a href="hondacards.html">Honda car for sale</a></li>
+                    <li><a href="suzukicard.html">Suzuki car for sale</a></li>
+                    <li><a href="#" onclick="buttom()">Toyota car for sale</a></li>
+                    <li><a href="#" onclick="buttom()">Nissan car for sale</a></li>
+                    <li><a href="#" onclick="buttom()">Hyundai car for sale</a></li>
+                </ul>
+            </div>
+            <div class="footerbox3">
+                <div class="footerbox2">
+                    <h5 class="available">Available On</h5>
+                    <ul>
+                        <a href="https://www.instagram.com/" id="insta" class="fa-brands fa-instagram"></a>
+                        <i><a href="https://web.facebook.com/?_rdc=1&_rdr#" class="fa-brands fa-facebook"></a></i>
+                        <a href="https://twitter.com/x/migrate?tok=7b2265223a222f3f6c616e673d656e222c2274223a313733323534323538307dad068750797b0caa0a4d2bb4a8b8ebb7"
+                          class="fa-brands fa-twitter"></a>
+                        <a href="https://www.youtube.com/results?search_query=honda" id="you" class="fa-brands fa-youtube"></a>
+                      </ul>
+                </div>
+                <h5 class="text-light">Cas By Province</h5>
+                <ul>
+                    <li><a href="visit.html">Car in punjab</a></li>
+                    <li><a href="visit.html">Car in Sindh</a></li>
+                    <li><a href="visit.html">Car in KPK</a></li>
+                    <div class="d-flex">
+                        <input type="text" value="search" class="footerinput">
+                        <button type="button" class="btn btn-danger" id="footerb"><i class="fa-solid fa-magnifying-glass" id="searchf"></i></button>
+                    </div>
+                </ul>
+            </div>
+        </footer>
+        <div class="bottom1">Copyright @2024 <br><b class="text-danger">FK Team</b></div>
+
+
+        <!-- bootstrap link -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="explore.js"></script>
+</body>
+
+</html>
