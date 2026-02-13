@@ -2,145 +2,202 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="e-project.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Auto World - Get in touch with our team for inquiries">
+  <title>Contact Us | Auto World</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2A7UiOHbaEPkpNAR+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <!-- navbar -->
 
-
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <img src="autologo2-removebg-preview.png" alt="logo" class="autologo">
-            <ul class="navbar-nav">
-              <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  <b>Brands</b>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="fordcard.html">Ford</a></li>
-                  <li><a class="dropdown-item" href="hondacards.html">honda</a></li>
-                  <li><a class="dropdown-item" href="suzukicard.html">Suzuki</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="diferences.html"><b>Differences</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="bookingpage12.html"><b>Booking</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html"><b> Contact</b></a>
-              </li>
+  <!-- Navigation -->
+  <nav class="navbar-main">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-brand">
+        <img src="autologo2-removebg-preview.png" alt="Auto World Logo" class="navbar-logo">
+      </a>
+      
+      <button class="navbar-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <div class="navbar-menu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item nav-dropdown">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button">
+              Brands <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="fordcard.html">Ford</a></li>
+              <li><a class="dropdown-item" href="hondacards.html">Honda</a></li>
+              <li><a class="dropdown-item" href="suzukicard.html">Suzuki</a></li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="diferences.html">Differences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bookingpage12.html">Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <img src="contact-us-best-vehicle-tracking-device-providers-1130x423.jpg" alt="Contact Us" class="page-header-image">
+    <div class="page-header-overlay">
+      <div class="page-header-content">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-grid">
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper reveal-left">
+        <h2>Send Us a Message</h2>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Full Name" required>
           </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" placeholder="Phone Number (03xxxxxxxxx)" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger">Send Message</button>
+        </form>
+      </div>
+      
+      <!-- Contact Info -->
+      <div class="contact-info reveal-right">
+        <div class="contact-info-item">
+          <h4><i class="fas fa-map-marker-alt"></i> Visit Our Showroom</h4>
+          <p>Taiser Town, Karachi<br>Block-36A, Pakistan</p>
         </div>
-      </nav>
-
-
-    <div style="width: 100%; height: 400px;">
-        <img src="contact-us-best-vehicle-tracking-device-providers-1130x423.jpg" width="100%" height="400px" alt="">
+        
+        <div class="contact-info-item">
+          <h4><i class="fas fa-phone-alt"></i> Call Us</h4>
+          <p>+92 343 2835043<br>+92 343 2834042</p>
+        </div>
+        
+        <div class="contact-info-item">
+          <h4><i class="fas fa-envelope"></i> Email Us</h4>
+          <p>farazkhan61512@gmail.com<br>miswaralimiswarali07@gmail.com</p>
+        </div>
+        
+        <div class="contact-info-item">
+          <h4><i class="fas fa-clock"></i> Business Hours</h4>
+          <p>Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: 10:00 AM - 5:00 PM</p>
+        </div>
+      </div>
     </div>
-    <div class="hondacar1" style="height: 100px;text-align: center;color: black; padding-top: 2%;">
-        <h1><strong>Contact Us</strong></h1>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="autologo2-removebg-preview.png" alt="Auto World Logo" class="footer-logo">
+        <div class="footer-about">
+          <p>Your trusted destination for premium vehicles in Pakistan. We offer the best selection of Ford, Honda, and Suzuki cars with excellent after-sales service.</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/" class="social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://web.facebook.com/" class="social-link" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/" class="social-link" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/" class="social-link" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4 class="footer-title">Auto World</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fordcard.html">New Vehicles</a></li>
+          <li><a href="finddailer.html">Find Dealer</a></li>
+          <li><a href="bookingpage12.html">Book a Car</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="hondacards.html">Brands</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4 class="footer-title">Cars By Make</h4>
+        <ul class="footer-links">
+          <li><a href="fordcard.html">Ford Cars</a></li>
+          <li><a href="hondacards.html">Honda Cars</a></li>
+          <li><a href="suzukicard.html">Suzuki Cars</a></li>
+          <li><a href="#" onclick="buttom()">Toyota Cars</a></li>
+          <li><a href="#" onclick="buttom()">Nissan Cars</a></li>
+          <li><a href="#" onclick="buttom()">Hyundai Cars</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4 class="footer-title">Cars By Province</h4>
+        <ul class="footer-links">
+          <li><a href="visit.html">Cars in Punjab</a></li>
+          <li><a href="visit.html">Cars in Sindh</a></li>
+          <li><a href="visit.html">Cars in Khyber Pakhtunkhwa</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="maincontact">
-        <div class="contactinputs">
-            <div>
-                <input placeholder="Full Name" type="text" name="contact[phone]" class="contactinput">
-            </div>
-            <div>
-                <input placeholder="03xxxxxxxxx" type="text" name="Number" class="contactinput">
-            </div>
-            <div>
-                <input placeholder="Email" type="text" name="Email" class="contactinput">
-            </div>
-            <div>
-                <input placeholder="Password" type="text" name="Password" class="contactinput">
-            </div>
-            <div>
-                <input placeholder="message" type="text" name="message" class="contactmessage">
-            </div>
-            <button type="button" class="btn btn-danger" id="contactbutton" onclick="pop()">Submit</button>
-        </div>
+    
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2024 <span>Auto World</span>. All rights reserved. | Designed by FK Team</p>
     </div>
+  </footer>
 
-
-
-    <!-- footer                                            footer -->
-
-    <footer class="footerbooking">
-
-
-        <div class="footerbox">
-            <img src="autologo2-removebg-preview.png" class="footerlogo" alt="logo">
-            <h5 class="text-light">Get in Touch</h5>
-            <p class="text-light"><b>Address:</b><span class="text-light"> Taiser Town karachi <br>block-36A </p>
-            <p class="text-light"><b>phone:</b><span> 03432835043</span></p>
-            <p class="text-light"><b>Email:</b><span> farazkhan61512@gmail.com</span></p>
-            <p class="text-light"><b>Email:</b><span> miswaralimiswarali07@gmail.com</span></p>
-        </div>
-        <div class="footerbox1">
-            <h5 class="text-light ">Auto World</h5>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="fordcard.html">New</a></li>
-                <li><a href="finddailer.html">Dealer</a></li>
-                <li><a href="bookingpage12.html">Book a Car</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="hondacards.html">Brand</a></li>
-            </ul>
-        </div>
-        <div class="footerbox1">
-            <h5 class="text-light">Cars By Make</h5>
-            <ul>
-                <li><a href="fordcard.html">Ford car for sale</a></li>
-                <li><a href="hondacards.html">Honda car for sale</a></li>
-                <li><a href="suzukicard.html">Suzuki car for sale</a></li>
-                <li><a href="#" onclick="buttom()">Toyota car for sale</a></li>
-                <li><a href="#" onclick="buttom()">Nissan car for sale</a></li>
-                <li><a href="#" onclick="buttom()">Hyundai car for sale</a></li>
-            </ul>
-        </div>
-        <div class="footerbox3">
-            <div class="footerbox2">
-                <h5 class="available">Available On</h5>
-                <ul>
-                    <a href="https://www.instagram.com/" id="insta" class="fa-brands fa-instagram"></a>
-                    <i><a href="https://web.facebook.com/?_rdc=1&_rdr#" class="fa-brands fa-facebook"></a></i>
-                    <a href="https://twitter.com/x/migrate?tok=7b2265223a222f3f6c616e673d656e222c2274223a313733323534323538307dad068750797b0caa0a4d2bb4a8b8ebb7"
-                      class="fa-brands fa-twitter"></a>
-                    <a href="https://www.youtube.com/results?search_query=honda" id="you" class="fa-brands fa-youtube"></a>
-                  </ul>
-            </div>
-            <h5 class="text-light">Cas By Province</h5>
-            <ul>
-                <li><a href="visit.html">Car in punjab</a></li>
-                <li><a href="visit.html">Car in Sindh</a></li>
-                <li><a href="visit.html">Car in KPK</a></li>
-                <div class="d-flex">
-                    <input type="text" value="search" class="footerinput">
-                    <button type="button" class="btn btn-danger" id="footerb"><i class="fa-solid fa-magnifying-glass" id="searchf"></i></button>
-                </div>
-            </ul>
-        </div>
-    </footer>
-    <div class="bottom1">Copyright @2024 <br><b class="text-danger">FK Team</b></div>
-    <!-- bootstrap link -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="explore.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -4,371 +4,372 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="Auto World - Your trusted destination for Ford, Honda, and Suzuki vehicles in Pakistan">
+  <title>Auto World | Premium Cars in Pakistan</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="e-project.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
 </head>
 
 <body>
 
-  <!-- navbar -->
-
-  <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <img src="autologo2-removebg-preview.png" alt="logo" class="autologo">
+  <!-- Navigation -->
+  <nav class="navbar-main">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-brand">
+        <img src="autologo2-removebg-preview.png" alt="Auto World Logo" class="navbar-logo">
+      </a>
+      
+      <button class="navbar-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <div class="navbar-menu">
         <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              <b>Brands</b>
+          <li class="nav-item nav-dropdown">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button">
+              Brands <i class="fas fa-chevron-down"></i>
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="fordcard.html">Ford</a></li>
-              <li><a class="dropdown-item" href="hondacards.html">honda</a></li>
+              <li><a class="dropdown-item" href="hondacards.html">Honda</a></li>
               <li><a class="dropdown-item" href="suzukicard.html">Suzuki</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="diferences.html"><b>Differences</b></a>
+            <a class="nav-link" href="diferences.html">Differences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="bookingpage12.html"><b>Booking</b></a>
+            <a class="nav-link" href="bookingpage12.html">Booking</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contact.html"><b> Contact</b></a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-
-  <!-- slider -->
-
-
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" id="bs" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" id="bs" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" id="bs" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="l-intro-1703196315.jpg" class="d-block w-100" height="500px" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Honda Company</h2>
-          <p>Since its foundation, Honda has been committed to "creating a society that is useful to people" by
-            utilizing its technologies and ideas. We also focus on environmental responsiveness and traffic safety, and
-            continue to take on the challenge of realizing a sustainable future.Honda Atlas Cars Pakistan Limited
-            launched the international second-generation as
-            first gen Honda HRV. 2nd generation Honda HRV is identical to Honda Vezel Hybrid except for some minor
-            cosmetic differences like the different front grille and hybrid technology.</p>
-          <button type="button" class="btn btn-danger"><a href="hondacards.html">New Blogs</a></button>
+  <!-- Hero Slider -->
+  <section class="hero">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide hero-slider" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="l-intro-1703196315.jpg" class="d-block w-100 hero-image" alt="Honda HR-V">
+          <div class="hero-overlay"></div>
+          <div class="hero-caption">
+            <h2>Honda Company</h2>
+            <p>Since its foundation, Honda has been committed to "creating a society that is useful to people" by utilizing its technologies and ideas. We also focus on environmental responsiveness and traffic safety, and continue to take on the challenge of realizing a sustainable future.</p>
+            <a href="hondacards.html" class="btn btn-danger">Explore Honda</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="236e390c-d595-413c-b828-64956b5153ef-0-raptorlhf.jpg" class="d-block w-100 hero-image" alt="Ford F-150">
+          <div class="hero-overlay"></div>
+          <div class="hero-caption">
+            <h2>Ford Company</h2>
+            <p>Ford is a family company, one that spans the globe and has shared ideals. We value service to each other and the world as much as to our customers. Generations have made their memories with us.</p>
+            <a href="fordcard.html" class="btn btn-danger">Explore Ford</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="2024-suzuki-swift-1.webp" class="d-block w-100 hero-image" alt="Suzuki Swift">
+          <div class="hero-overlay"></div>
+          <div class="hero-caption">
+            <h2>Suzuki Company</h2>
+            <p>Suzuki Motor Corporation is a Japanese multinational mobility manufacturer headquartered in Hamamatsu, Shizuoka. It manufactures automobiles, motorcycles, all-terrain vehicles, and more.</p>
+            <a href="suzukicard.html" class="btn btn-danger">Explore Suzuki</a>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="236e390c-d595-413c-b828-64956b5153ef-0-raptorlhf.jpg" class="d-block w-100" height="550px" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Ford Company</h2>
-          <p>Ford is a family company, one that spans the globe and has shared ideals. We value service to each other
-            and the world as much as to our customers. Generations have made their memories with us and included us in
-            their hopes and dreams. After 121 years, we’re used to adapting to and leading change. hard, we've got a
-            powertrain fit for the job. Whichever you choose, you’ll have the trust in knowing its
-            capabilities are boundless.</p>
-          <button type="button" class="btn btn-danger"><a href="fordcard.html">New Blogs</a></button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Action Boxes -->
+  <section class="action-section">
+    <div class="action-container reveal">
+      <a href="finddailer.html" class="action-box">
+        <div class="action-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="action-content">
+          <h3>Find A Dealer</h3>
+          <p>Locate your nearest authorized dealer</p>
+        </div>
+      </a>
+      <a href="bookingpage12.html" class="action-box">
+        <div class="action-icon">
+          <i class="fas fa-calendar-check"></i>
+        </div>
+        <div class="action-content">
+          <h3>Book Your Car</h3>
+          <p>Schedule a test drive today</p>
+        </div>
+      </a>
+      <a href="visit.html" class="action-box">
+        <div class="action-icon">
+          <i class="fas fa-store"></i>
+        </div>
+        <div class="action-content">
+          <h3>Visit Showroom</h3>
+          <p>Experience our facilities in person</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Ford F-150 Section -->
+  <section class="car-section">
+    <div class="car-container">
+      <div class="car-grid">
+        <div class="car-image-wrapper reveal-left">
+          <img src="ford-endeavour-to-raptor-1.jpg (1).webp" alt="Ford F-150" class="car-image" id="carImage">
+          <div class="car-play-button" id="playButton">
+            <i class="fas fa-play"></i>
+          </div>
+          <video id="carVideo" class="car-video" controls muted style="display: none;">
+            <source src="videoford.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="car-content reveal-right">
+          <h3>Ford F-150 2024</h3>
+          <h4>So Much Power, So Many Possibilities</h4>
+          <p>Immense power comes in all sizes. Whether you're looking for the perfect vocational truck that shares your work-hard ethic or an unworldly powerful weekend warrior that allows you to assert your freedom to play just as hard, we've got a powertrain fit for the job.</p>
+          <div class="car-features">
+            <div class="car-feature">
+              <i class="fas fa-truck"></i>
+              <span>Best-in-class Towing</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-tachometer-alt"></i>
+              <span>Powerful Engine Options</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-shield-alt"></i>
+              <span>Advanced Safety</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-couch"></i>
+              <span>Luxurious Interior</span>
+            </div>
+          </div>
+          <a href="fordexpore.html" class="btn btn-danger">Explore More</a>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="2024-suzuki-swift-1.webp" class="d-block w-100" height="550px" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Suzuki Company</h2>
-          <p>Suzuki Motor Corporation (Japanese: スズキ株式会社, Hepburn: Suzuki Kabushiki gaisha) is a Japanese multinational
-            mobility manufacturer headquartered in Hamamatsu, Shizuoka. It manufactures automobiles, motorcycles,
-            all-terrain vehicles (ATVs), outboard marine engines, wheelchairs and a variety of other small internal
-            combustion engines. In 2016, Suzuki was the eleventh biggest automaker by production worldwide..[4] Suzuki
-            has over 45,000 employees and has 35 production facilities in 23 countries, and 133 distributors in 192
-            countries. The worldwide sales volume of automobiles is the world's tenth largest,[5] while domestic sales
-            volume is the third largest in the country.[6]</p>
-          <button type="button" class="btn btn-danger"><a href="suzukicard.html">New Blogs</a></button>
+    </div>
+  </section>
+
+  <!-- Honda HR-V Section -->
+  <section class="car-section">
+    <div class="car-container">
+      <div class="car-grid">
+        <div class="car-image-wrapper reveal-right">
+          <img src="car_0414_372400.jpg" alt="Honda HR-V" class="car-image" id="carImage13">
+          <div class="car-play-button" id="playButton2">
+            <i class="fas fa-play"></i>
+          </div>
+          <video id="carVideo13" class="car-video" controls muted style="display: none;">
+            <source src="a (2).webm" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="car-content reveal-left">
+          <h3>Honda HR-V 2024</h3>
+          <p>Honda HR-V 2024 is an international variant of Japanese Honda Vezel, a compact crossover without Hybrid technology. In Pakistan, Honda Atlas Cars Pakistan Limited launched the international second-generation as first gen Honda HRV.</p>
+          <p>HR-V stands for Hi-rider Revolutionary Vehicle. The HR-V 3rd Generation is now locally assembled and is offered in 2 variants, VTI and VTI S.</p>
+          <div class="car-features">
+            <div class="car-feature">
+              <i class="fas fa-leaf"></i>
+              <span>Fuel Efficient</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-car-side"></i>
+              <span>Spacious Interior</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-sitemap"></i>
+              <span>Modern Design</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-cog"></i>
+              <span>Reliable Performance</span>
+            </div>
+          </div>
+          <a href="hondaexplore.html" class="btn btn-danger">Explore More</a>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+  </section>
 
-  <!-- 1 box -->
-
-
-  <div class="section">
-    <div class="container">
-      <div class="box1">
-        <a href="finddailer.html"><img src="dealer.png" alt="logo" class="dealerlogo"></a>
-        <a href="finddailer.html">
-          <h6>Find A Dealer</h6>
-        </a>
-      </div>
-      <div class="box2">
-        <a href="bookingpage12.html"><img src="b12.jpg" alt="logo" class="bookinglogo"></a>
-        <a href="bookingpage12.html">
-          <h6>Book Your Car</h6>
-        </a>
-      </div>
-      <div class="box3">
-        <a href="visit.html"><img src="showroom.jpg" alt="logo" class="showroomlogo"></a>
-        <a href="visit.html">
-          <h6>Visit showroom</h6>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- cards -->
-
-
-  <div class="main d-flex">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"
-      style="position: relative;">
-      <!-- Car Image -->
-      <img src="ford-endeavour-to-raptor-1.jpg (1).webp" alt="Car Image" class="mainboximage" id="carImage"
-        style="width: 100%; display: block;">
-
-      <!-- Play Button -->
-      <div class="carousel-inner" id="innerb" style="position: relative;">
-        <a href="#" id="playButton"
-          style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); z-index: 10;">
-          <i class="fa-solid fa-circle-play" style="font-size: 48px; color: rgba(0, 0, 0, 0.8); cursor: pointer;"></i>
-        </a>
-      </div>
-
-      <!-- Video Element (initially hidden) -->
-      <video id="carVideo" class="car-video"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none;" controls muted>
-        <source src="videoford.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
-    <div class="mainbox2">
-      <div class="first-content">
-        <h3>Ford F-150 2024</h3>
-        <h5>So Much Power, So Many Possibilities</h5>
-        <p>Immense power comes in all sizes. Whether you're looking for the perfect vocational truck that shares your
-          work-hard ethic or an unworldly powerful weekend warrior that allows you to assert your freedom to play just
-          as
-          hard, we've got a powertrain fit for the job. Whichever you choose, you’ll have the trust in knowing its
-          capabilities are boundless.</p>
-        <h5>Towing and Hauling</h5>
-        <p>There are tons of capabilities at the ready. That's because the 2024 F-150® pickup delivers an astounding
-          best-in-class available tow rating up to 13,500 lbs* and 2,445 lbs.</p>
-      </div>
-      <div class="second-content">
-        <h2>For more </h2>
-        <button type="button" class="btn btn-outline-danger "><a href="fordexpore.html">Expore</a></button>
+  <!-- Suzuki Swift Section -->
+  <section class="car-section">
+    <div class="car-container">
+      <div class="car-grid">
+        <div class="car-image-wrapper reveal-left">
+          <img src="110082566.webp" alt="Suzuki Swift" class="car-image" id="carImage12">
+          <div class="car-play-button" id="playButton1">
+            <i class="fas fa-play"></i>
+          </div>
+          <video id="carVideo12" class="car-video" controls muted style="display: none;">
+            <source src="videosuzuki.webm" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="car-content reveal-right">
+          <h3>Suzuki Swift 2024</h3>
+          <p>The Suzuki Swift 2024 is a subcompact car manufactured by the Japanese automobile company Suzuki. It was first launched in September 2004 at the Paris Motor Show, and the first generation Swift was globally launched in 2005.</p>
+          <p>It was an instant hit worldwide, with double the forecasted sales. The car was introduced in Pakistan in 2009 by Pak Suzuki Motor Company Limited.</p>
+          <div class="car-features">
+            <div class="car-feature">
+              <i class="fas fa-bolt"></i>
+              <span>Sporty Performance</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-gas-pump"></i>
+              <span>Excellent Mileage</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-palette"></i>
+              <span>Modern Styling</span>
+            </div>
+            <div class="car-feature">
+              <i class="fas fa-tag"></i>
+              <span>Affordable Price</span>
+            </div>
+          </div>
+          <a href="suzukiexplore.html" class="btn btn-danger">Explore More</a>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
-
-
-
-
-
-  <div class="main1 d-flex">
-    <div class="mainbox3">
-      <div class="first-content">
-        <h3>Honda HR-V 2024</h3>
-        <p>Honda HR-V 2024 is an international variant of Japanese Honda Vezel, a compact crossover without Hybrid
-          technology. In Pakistan, Honda Atlas Cars Pakistan Limited launched the international second-generation as
-          first gen Honda HRV. 2nd generation Honda HRV is identical to Honda Vezel Hybrid except for some minor
-          cosmetic differences like the different front grille and hybrid technology. HR-V stands for Hi-rider
-          Revolutionary Vehicle.
-          The HR-V 3rd Generation is now locally assembled and is offered in 2 variants, VTI and VTI S. It is a
-          subcompact crossover SUV, also known as Honda Vezel, in the Japanese market.The HR-V is launched with a dual
-          overhead cam 1.5-liter engine which is naturally aspirated.</p>
-      </div>
-      <div class="second-content">
-        <h2>For more </h2>
-        <button type="button" class="btn btn-outline-danger"><a href="hondaexplore.html"> Expore </a></button>
-      </div>
+  <!-- Car Brands Section -->
+  <section class="brands-section">
+    <div class="section-header reveal">
+      <h2>Our Car Brands</h2>
     </div>
+    <div class="brands-grid">
+      <a href="hondacards.html" class="brand-box reveal stagger-1">
+        <img src="Honda-logo-icon-shape-min.jpg" alt="Honda">
+      </a>
+      <a href="suzukicard.html" class="brand-box reveal stagger-2">
+        <img src="Suzuki-Logo-PNG-Photos.png" alt="Suzuki">
+      </a>
+      <a href="fordcard.html" class="brand-box reveal stagger-3">
+        <img src="Ford_logo_flat.svg.png" alt="Ford">
+      </a>
+    </div>
+  </section>
 
-
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"
-        style="position: relative;">
-        <!-- Car Image -->
-        <img src="car_0414_372400.jpg" alt="carImage13" class="mainboximage" id="carImage13"
-          style="width: 100%; display: block;">
-
-        <!-- Play Button -->
-        <div class="carousel-inner" id="innerb" style="position: relative;">
-          <a href="#" id="playButton2"
-            style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); z-index: 10;">
-            <i class="fa-solid fa-circle-play" style="font-size: 48px; color: rgba(0, 0, 0, 0.8); cursor: pointer;"></i>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="autologo2-removebg-preview.png" alt="Auto World Logo" class="footer-logo">
+        <div class="footer-about">
+          <p>Your trusted destination for premium vehicles in Pakistan. We offer the best selection of Ford, Honda, and Suzuki cars with excellent after-sales service.</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/" class="social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://web.facebook.com/" class="social-link" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/" class="social-link" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/" class="social-link" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
           </a>
         </div>
-
-        <!-- Video Element (initially hidden) -->
-        <video id="carVideo13" class="car-video"
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none;" controls muted>
-          <source src="a (2).webm" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
       </div>
-    </div>
-  </div>
-
-  <div class="main d-flex">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"
-      style="position: relative;">
-      <!-- Car Image -->
-      <img src="110082566.webp" alt="CarImage12" class="mainboximage" id="carImage12"
-        style="width: 100%; display: block;">
-
-      <!-- Play Button -->
-      <div class="carousel-inner" id="innerb" style="position: relative;">
-        <a href="#" id="playButton1"
-          style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); z-index: 10;">
-          <i class="fa-solid fa-circle-play" style="font-size: 48px; color: rgba(0, 0, 0, 0.8); cursor: pointer;"></i>
-        </a>
-      </div>
-
-      <!-- Video Element (initially hidden) -->
-      <video id="carVideo12" class="car-video"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none;" controls muted>
-        <source src="videosuzuki.webm" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <div class="mainbox2">
-      <div class="first-content">
-        <h3>Suzuki Swift 2024</h3>
-        <p>The Suzuki Swift 2024 is a subcompact car manufactured by the Japanese automobile company Suzuki. It was
-          first
-          launched in September 2004 at the Paris Motor Show, and the first generation Swift was globally launched in
-          2005, branded as a sporty subcompact car. It was an instant hit worldwide, with double the forecasted sales.
-          The
-          car was introduced in Pakistan in 2009 by Pak Suzuki Motor Company Limited, with a 1.3-liter M13A petrol
-          engine
-          and a 5-speed manual or 4-speed automatic transmission. However, it was discontinued in Pakistan in 2021.In
-          2010, the second-generation Suzuki Swift was launched, featuring a larger wheelbase and a more rounded design
-          language. </p>
-      </div>
-      <div class="second-content">
-        <h2>For more </h2>
-        <button type="button" class="btn btn-outline-danger"><a href="suzukiexplore.html"> Expore</a></button>
-      </div>
-
-    </div>
-  </div>
-
-
-  <!-- Car brands -->
-  <div class="brand">
-    <h1>CAR BRANDS</h1>
-  </div>
-  <div class="container2">
-    <div class="brandbox1"><a href="hondacards.html"><img src="Honda-logo-icon-shape-min.jpg" alt="logo"
-          class="hondalogo"></a>
-    </div>
-    <div class="brandbox">
-      <a href="suzukicard.html"><img src="Suzuki-Logo-PNG-Photos.png" alt="logo" class="hondalogo"></a>
-    </div>
-    <div class="brandbox">
-      <a href="fordcard.html"><img src="Ford_logo_flat.svg.png" alt="logo" class="hondalogo"></a>
-    </div>
-  </div>
-  </div>
-
-  <!-- footer -->
-
-
-  <footer class="footer">
-
-
-    <div class="footerbox">
-      <img src="autologo2-removebg-preview.png" class="footerlogo" alt="logo">
-      <h5 class="text-light">Get in Touch</h5>
-      <p class="text-light"><b>Address:</b><span class="text-light"> Taiser Town karachi <br>block-36A </p>
-      <p class="text-light"><b>phone:</b><span> 03432835043</span></p>
-      <p class="text-light"><b>Email:</b><span> farazkhan61512@gmail.com</span></p>
-      <p class="text-light"><b>Email:</b><span> miswaralimiswarali07@gmail.com</span></p>
-    </div>
-    <div class="footerbox1">
-      <h5 class="text-light ">Auto World</h5>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="fordcard.html">New</a></li>
-        <li><a href="finddailer.html">Dealer</a></li>
-        <li><a href="bookingpage.html">Book a Car</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="hondacards.html">Brand</a></li>
-      </ul>
-    </div>
-    <div class="footerbox1">
-      <h5 class="text-light">Cars By Make</h5>
-      <ul>
-        <li><a href="fordcard.html">Ford car for sale</a></li>
-        <li><a href="hondacards.html">Honda car for sale</a></li>
-        <li><a href="suzukicard.html">Suzuki car for sale</a></li>
-        <li><a href="#" onclick="buttom()">Toyota car for sale</a></li>
-        <li><a href="#" onclick="buttom()">Nissan car for sale</a></li>
-        <li><a href="#" onclick="buttom()">Hyundai car for sale</a></li>
-      </ul>
-    </div>
-    <div class="footerbox3">
-      <div class="footerbox2">
-        <h5 class="available">Available On</h5>
-        <ul>
-          <a href="https://www.instagram.com/" class="fa-brands fa-instagram" id="insta"></a>
-          <i><a href="https://web.facebook.com/?_rdc=1&_rdr#" class="fa-brands fa-facebook"></a></i>
-          <a href="https://twitter.com/x/migrate?tok=7b2265223a222f3f6c616e673d656e222c2274223a313733323534323538307dad068750797b0caa0a4d2bb4a8b8ebb7"
-            class="fa-brands fa-twitter"></a>
-          <a href="https://www.youtube.com/results?search_query=honda" id="you" class="fa-brands fa-youtube"></a>
+      
+      <div class="footer-column">
+        <h4 class="footer-title">Auto World</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fordcard.html">New Vehicles</a></li>
+          <li><a href="finddailer.html">Find Dealer</a></li>
+          <li><a href="bookingpage12.html">Book a Car</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="hondacards.html">Brands</a></li>
         </ul>
       </div>
-      <h5 class="text-light">Cas By Province</h5>
-      <ul>
-        <li><a href="visit.html">Car in punjab</a></li>
-        <li><a href="visit.html">Car in Sindh</a></li>
-        <li><a href="visit.html">Car in KPK</a></li>
-        <div class="d-flex">
-          <input type="text" placeholder="search" class="footerinput">
-          <button type="button" class="btn btn-danger" id="footerb"><i class="fa-solid fa-magnifying-glass"
-              id="searchf"></i></button>
+      
+      <div class="footer-column">
+        <h4 class="footer-title">Cars By Make</h4>
+        <ul class="footer-links">
+          <li><a href="fordcard.html">Ford Cars</a></li>
+          <li><a href="hondacards.html">Honda Cars</a></li>
+          <li><a href="suzukicard.html">Suzuki Cars</a></li>
+          <li><a href="#" onclick="buttom()">Toyota Cars</a></li>
+          <li><a href="#" onclick="buttom()">Nissan Cars</a></li>
+          <li><a href="#" onclick="buttom()">Hyundai Cars</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4 class="footer-title">Cars By Province</h4>
+        <ul class="footer-links">
+          <li><a href="visit.html">Cars in Punjab</a></li>
+          <li><a href="visit.html">Cars in Sindh</a></li>
+          <li><a href="visit.html">Cars in Khyber Pakhtunkhwa</a></li>
+        </ul>
+        <div class="footer-newsletter">
+          <input type="email" placeholder="Enter your email">
+          <button type="button" aria-label="Subscribe">
+            <i class="fas fa-paper-plane"></i>
+          </button>
         </div>
-      </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2024 <span>Auto World</span>. All rights reserved. | Designed by FK Team</p>
     </div>
   </footer>
-  <div class="bottom">Copyright @2024 <br><b class="text-danger">FK Team</b></div>
 
-
-
-
-  <!-- bootstrap link -->
-
+  <!-- Bootstrap JS -->
   <script src="js/bootstrap.min.js"></script>
-  <script src="explore.js"></script>
-
+  
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
 </body>
 
 </html>
